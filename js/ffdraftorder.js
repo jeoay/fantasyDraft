@@ -2,7 +2,7 @@
 
 //alert("Proceed to display draft order for 2017.");
 
-var teams = ['Team7', 'Team8', 'Team9', 'Team10', 'Team11', 'Team12', 'Turkaton', 'Team Hand Hugs'];
+var teams = ['Team7', 'Team8', 'Team9', 'Team10', 'Team11', 'Team12', 'Team13', 'Team14'];
 
 var team7 = true;
 var team8 = true;
