@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    font-size: 24px;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(10, auto);
+
+    div {
+        background-color: blue;
+        height: 100vh;
+        font-size: 24px;
+        font-family: 24px;
+    }
+}
+
+h1 {
+    position: absolute;
+    top: 40%;
+    left: 12%;
+    opacity: 0;
+    z-index: 2;
+}

@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+  font-size: 24px;
+}
+
+section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[10];
+      grid-template-columns: repeat(10, auto);
+}
+
+section div {
+  background-color: blue;
+  height: 100vh;
+  font-size: 24px;
+  font-family: 24px;
+}
+
+h1 {
+  position: absolute;
+  top: 40%;
+  left: 12%;
+  opacity: 0;
+  z-index: 2;
+}
+/*# sourceMappingURL=main.css.map */
